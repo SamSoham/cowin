@@ -104,9 +104,84 @@
               background-color: rgb(137, 209, 238);
               padding: 20px;
               color:white;}
-          input.one{ background-color: rgb(248, 246, 238);}
-          
-    </style>
+          input.one{ background-color: rgb(248, 246, 238);
+        color: black;}
+        @media screen and (max-width: 1200px){
+            div{
+                font-size: 28px;
+         }
+        }
+        @media screen and (max-width: 1027px) {
+            nav li{width: 25%;
+            white-space: nowrap;
+            font-size: 20px;
+        }
+            div{
+                font-size: 25px;
+            }
+            h2{
+                font-size: 32px;
+            }
+            img.one{
+                width: 300px;
+            }
+        }
+        @media screen and (max-width:870px){
+            nav li{width: 25%;
+            white-space: nowrap;
+            font-size: 16px;
+        }
+            div{
+                font-size: 20px;
+            }
+            h2{
+                font-size: 28px;}
+                img.one{
+                    width: 250px;
+                }
+                input.two{
+                    width: 200px;
+                }
+            }
+            @media screen and (max-width:742px){
+                div{
+                    font-size: 16px;
+                }
+                p{
+                    font-size: 15px;
+                }
+                img.one{
+                    width: 200px;
+                }
+                input.two{
+                    width: 150px;
+                    font-size: 15px
+                }
+                input.one{
+                    width: 150px;
+                    font-size: 15px;
+                }
+                nav li{
+                    white-space: nowrap;
+                    width: 25%;
+                    font-size: 14px;
+                }
+            }
+          @media  screen and (max-width:678px) {
+              div{font-size: 14px;}
+              nav li{white-space: nowrap;
+            width: 25%;
+            font-size: 12px;
+        }
+            img.one{
+                width: 180px;}  
+                input.one{width: 100px;
+                font-size: 9px;}   
+                input.two{width: 100px;
+                font-size: 9px;
+                }         
+          }
+     </style>
 </head>
 <body>
     <header>
@@ -133,10 +208,10 @@
             <h2 class="two">&middot;Get Your Precaution Dose</h2><p class="one">Our citizen's health is our responsiblity.Precaution dose is only available to HCW/FLW and Senior citizen(60+) after 39 weeks from 2nd dose.Citizens aged 60 years or more and having comorbities should take precaution dose only after medical advice.Both online and offline.</p>
             <img class="two" src="download (1).jpeg" alt="hw" height="193px"> 
             <img class="two" src="download.jpeg" alt="">
-            <input type="submit" value="Book your slot">
+            <input class="two" type="submit" value="Book your slot">
             <h2 class="three">&middot;Vaccination for children</h2><p class="two">Protect your child!Getting your children(15-18 yrs)vaccinated is the best thing you can do to protect them from COVID-19.Vaccination slot can be now booked for children both online and offline.</p>
             <img class="two" src="images.jpeg" alt="children photo" width="400px" >
-            <input type="submit" value="Book your slot">
+            <input class="two" type="submit" value="Book your slot">
         </article>
     </main>
     
